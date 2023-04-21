@@ -1,0 +1,21 @@
+{
+  "dtmPythonFlask": {
+    "type": "microservice",
+    "label": "Python Microfrontend",
+    "enableProxy": true,
+    "proxyPath": "/python",
+    "endpoint": "python",
+    "devServerPort": 8080,
+    "dockerContainer": "digital-twin-python",
+    "dockerImage": "Dockerfile.Microservice.Python",
+    "rootDir": "./Digital-Twin-Python",
+    "volumes": [],
+    "servicesMap": {
+      "group": "data-services"
+    },
+    "dependencies": [],
+    "remote": "http://localhost:8080",
+    "url": "http://localhost:8080",
+    "licenses": []
+  }
+}

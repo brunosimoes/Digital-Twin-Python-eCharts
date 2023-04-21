@@ -1,0 +1,10 @@
+version: '3'
+services:
+  python-microfrontend:
+    image: python-microfrontend
+    container_name: python-microfrontend
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080

@@ -1,0 +1,12 @@
+{
+  "name": "dtmPythonFlask",
+  "template": "./src/index.html",
+  "endpoint": "remote.js",
+  "devServerPort": 8080,
+  "typesOutputDir": "public/types",
+  "public": [],
+  "remotes": [],
+  "exposes": {
+    "./App": "./src/App.tsx"
+  }
+}
